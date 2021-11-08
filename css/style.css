@@ -15,8 +15,8 @@ header, footer {
 
  header {
    font-family: Work Sans;
-   color #fff;
-   min-hieght: 100vh;
+   color: #fff;
+   min-height: 100vh;
    display: flex;
  }
 
