@@ -8,19 +8,20 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #4850e5;
+  background-color: #89B0AE;
   text-align: left;
  /*  min-width: 500px; */
  }
 
  header {
-   font-family: Work Sans;
-   color: #fff;
+   font-family: 'Karla', serif;
+   color: #FAF9F9;
    min-height: 100vh;
    display: flex;
  }
 
  main {
+   background-color: #FAF9F9;
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
    grid-gap: 20px;
@@ -33,7 +34,7 @@ header, footer {
  }
 
  h1 {
-   font-family: Poppins;
+   font-family: 'Spectral', serif;
    font-size: calc(1em + 3vw);
    padding-bottom: .67em;
    border-bottom: 1px solid;
@@ -41,12 +42,12 @@ header, footer {
  }
 
 h2 {
-  font-family: Poppins;
+  font-family: 'Spectral', serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ff9400;
+  color: #555B6E;
   padding: 10px 0px 10px 10px;
 }
 
@@ -66,7 +67,7 @@ object-fit: cover;
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Work Sans';
+  font-family: 'Karla', serif;
 }
 
 .buttonBox {
@@ -87,7 +88,7 @@ object-fit: cover;
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#FFD6BA;
 }
 
 .myButton:active {
@@ -117,7 +118,7 @@ object-fit: cover;
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'Spectral', serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -128,7 +129,7 @@ object-fit: cover;
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: 'Karla', serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -162,4 +163,8 @@ footer {
   img {
     height: 40vh;
   }
+}
+
+a {
+  color: #89B0AE;
 }
