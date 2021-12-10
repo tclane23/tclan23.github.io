@@ -132,6 +132,11 @@ img {
   object-position: 20% 15%;
 }
 
+#trevor {
+ object-fit: scale-down;
+  object-position: center center;
+}
+
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
